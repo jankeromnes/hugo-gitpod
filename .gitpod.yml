@@ -1,2 +1,6 @@
 image:
   file: .gitpod.Dockerfile
+
+ports:
+  - port: 1313
+    onOpen: open-preview
