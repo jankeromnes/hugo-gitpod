@@ -4,3 +4,6 @@ image:
 ports:
   - port: 1313
     onOpen: open-preview
+
+tasks:
+  - command: hugo server --baseUrl $(gp url 1313) --appendPort=false --liveReloadPort=443
